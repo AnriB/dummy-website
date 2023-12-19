@@ -8,6 +8,7 @@ WORKDIR /usr/local/apache2/htdocs
 COPY src/ .
 
 # Expose port 80 to the outside world
+
 EXPOSE 80
 
 # Command to run the application
